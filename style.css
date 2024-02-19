@@ -1,0 +1,315 @@
+
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    grid-gap: 20px;
+    padding: 10px;
+
+}
+
+.navbar{
+    display: grid;
+    grid-template-areas: "menu logo titulo titulo titulo titulo preguntas";
+    background-color: gray;
+    height: 50px;
+    align-items: center;
+}
+
+.menu {
+    grid-area: menu;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo{
+    grid-area: logo;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    grid-area: titulo;
+    margin-left: 20px;
+}
+
+.preguntas{
+    grid-area: preguntas;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.inputD{
+    width: 70%;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 10px;
+    grid-gap: 20px;
+}
+
+.sectuno{
+    display: grid;
+    grid-template-areas: "CreatuSi CreatuSi CreatuSi NomD";
+    grid-gap: 20px;
+}
+
+.CreatuSi{
+    grid-area: CreatuSi;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    background-color: pink;
+    border-radius: 20px;
+    align-items: center;
+}
+.NomD{
+    grid-area: NomD;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    align-items: center;
+}
+.sectdos{
+    display: grid;
+    grid-template-areas: "tafuno tafdos taftres tafcuatro tafnueve"
+                         "tafcinco tafseis tafsiete tafocho tafnueve";
+}
+
+.tafuno{
+    grid-area: tafuno;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: gray;
+}
+.tafdos{
+    grid-area: tafdos;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: blue;
+}
+.taftres{
+    grid-area: taftres;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: pink;
+}
+.tafcuatro{
+    grid-area:tafcuatro ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: yellow;
+}
+.tafcinco{
+    grid-area: tafcinco;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: green;
+}
+.tafseis{
+    grid-area: tafseis;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: brown;
+}
+.tafsiete{
+    grid-area: tafsiete;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: violet;
+}
+.tafocho{
+    grid-area: tafocho;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color:mediumturquoise;
+}
+.tafnueve{
+    grid-area: tafnueve;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    background-color: bisque;
+}
+.sectres{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.reseuno{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-color: gray;
+    border-radius: 8px;
+    align-items: center;
+}
+.resedos{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-color: gray;
+    border-radius: 8px;
+    align-items: center;
+}
+.resetres{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-color: gray;
+    border-radius:8px;
+    align-items: center;
+}
+.sectcuatro{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.card1{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-color: gray;
+    align-items: center;
+}
+.card2{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-color: white;
+    align-items: center;
+}
+.card3{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-color: white;
+    align-items: center;
+}
+.card4{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-color: gray;
+    align-items: center;
+}
+.card5{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-color: gray;
+    align-items: center;
+}
+.card6{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-color: white;
+    align-items: center;
+}
+
+.aside{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 30px;
+}
+.hijo1{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-color: aquamarine;
+    align-items: center;
+}
+.hijo2{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-color: rgb(190, 143, 193);
+    align-items: center;
+}
+.hijo3{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-color: white;
+    align-items: center;
+}
+.pie{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 20px;
+    color: white;
+    background-color: black;
+    padding: 30px;
+
+}
+.target1{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 10px;
+}
+.inf{
+    height: 350px;
+}
+.target2{
+    display: grid;
+    grid-template-areas: "ft1 ft2 ft3 ft3 ft3 ft3 ft4";
+    grid-gap: 20px;
+}
+.ft1{
+    grid-area: ft1;
+}
+.ft2{
+    grid-area: ft2;
+}.ft3{
+    grid-area: ft3;
+}.ft4{
+    grid-area: ft4;
+}
+.target3{
+    display: grid;
+    grid-template-areas: "fin1 fin1 fin1 fin1 fin2 fin3 fin4";
+    grid-gap: 20px;
+}
+.fin1{
+    grid-area: fin1;
+}
+.fin2{
+    grid-area: fin2;
+}.fin3{
+    grid-area: fin3;
+}.fin4{
+    grid-area: fin4;
+}
