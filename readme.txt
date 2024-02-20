@@ -1,1 +1,1 @@
-Mi prinera pagina
+Mi primera pagina
